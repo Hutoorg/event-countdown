@@ -20,9 +20,23 @@ var x = setInterval(function() {
   document.getElementById("countdown-number").innerHTML = days + "d " + hours + "h "
   + minutes + "m " + seconds + "s ";
 
+  // If "d" = "0", delete it
+  if (days == 0) {
+    document.getElementById("countdown-number").innerHTML = hours + "h "+ minutes 
+    + "m " + seconds + "s ";
+  }
+
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("countdown-number").innerHTML = "Happy New Year!";
   }
 }, 1000);
+
+function d() {
+  location.href = 'dark.html';
+}
+
+function w() {
+  location.href = 'index.html';
+}
