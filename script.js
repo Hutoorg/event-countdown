@@ -34,9 +34,9 @@ var x = setInterval(function() {
 }, 1000);
 
 function d() {
-  location.href = 'dark.html';
+  location.href = 'dark';
 }
 
 function w() {
-  location.href = 'index.html';
+  location.href = '//hutoorg.github.io/event-countdown';
 }
