@@ -19,6 +19,7 @@ h1 {
 span {
     color: white;
     margin-top: 30%;
+    cursor: pointer;
 }
 
 #countdown {
