@@ -1,8 +1,8 @@
 // Set the date we're counting down to
-var countDownDate = new Date("Jan 1, 2023 00:00:00").getTime();
+var countDownDate = new Date("Jan 22, 2023 00:00:00").getTime();
 
 // Update the count down every 1 second
-var x = setInterval(function() {
+var x = setInterval(function () {
 
   // Get today's date and time
   var now = new Date().getTime();
@@ -18,12 +18,12 @@ var x = setInterval(function() {
 
   // Display the result in the element with id="countdown-number"
   document.getElementById("countdown-number").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
+    + minutes + "m " + seconds + "s ";
 
   // If "d" = "0", delete it
   if (days == 0) {
-    document.getElementById("countdown-number").innerHTML = hours + "h "+ minutes 
-    + "m " + seconds + "s ";
+    document.getElementById("countdown-number").innerHTML = hours + "h " + minutes
+      + "m " + seconds + "s ";
   }
 
   // If the count down is finished, write some text
@@ -40,3 +40,21 @@ function d() {
 function w() {
   location.href = '//hutoorg.github.io/event-countdown';
 }
+
+// Import form JSON
+const titlename = document.getElementById("name");
+
+async function getData() {
+  try {
+    const response = await fetch('assets/info.json');
+    const config = await response.json();
+
+    titlename.innerHTML = config.ttn;
+    document.getElementById("headtitle").innerHTML = config.ttn + " | Countdown timer | Huto"
+    
+  } catch (error) {
+    console.error(error)
+  }
+};
+
+getData()

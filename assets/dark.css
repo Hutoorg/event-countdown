@@ -7,9 +7,12 @@
     background-color: rgb(34, 34, 34);
 }
 
-h1 {
+.tt, .thename {
     margin-left: 3px;
     color: white;
+    font-weight: 600;
+    font-size: 32px;
+    display: inline-block;
 }
 
 .icon {
