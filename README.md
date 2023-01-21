@@ -1,5 +1,5 @@
 # Event Countdown
-New year countdown
+**Current event**: Chinese New year countdown
 
 ---
 
