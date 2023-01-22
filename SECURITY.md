@@ -16,4 +16,4 @@ Once the three years of support are completed, the branch reaches its end of lif
 
 ## Reporting a Vulnerability
 
-Report via [Email](mailto:contact.hutotpn@gmail.com)
+Report it via [Email](mailto:contact.hutotpn@gmail.com)
