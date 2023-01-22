@@ -60,7 +60,7 @@ representative at an online or offline event.
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to the community leaders responsible for enforcement at
-[Email](mailto:contact.hutotpn@gmail.com?subject=[User%20Report (Code of conduct)]).
+[Email](mailto:contact.hutotpn@gmail.com?subject=[User%20Report]).
 All complaints will be reviewed and investigated promptly and fairly.
 
 All community leaders are obligated to respect the privacy and security of the
