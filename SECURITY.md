@@ -16,4 +16,4 @@ Once the six months and one week of support are completed, the release reaches i
 
 ## Reporting a Vulnerability
 
-Report it via [Email](mailto:contact.hutotpn@gmail.com?subject=[Vulnerability Report])
+Report it via [Email](mailto:contact.hutotpn@gmail.com?subject=[Vulnerability%20Report])
