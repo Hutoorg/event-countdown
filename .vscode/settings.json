@@ -3,6 +3,8 @@
         "headconfig",
         "headtitle",
         "hutoorg",
+        "lsget",
+        "lsset",
         "thename",
         "titlename"
     ]
