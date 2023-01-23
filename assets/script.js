@@ -29,7 +29,7 @@ var x = setInterval(function () {
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("countdown-number").innerHTML = "Happy New Year!";
+    document.getElementById("countdown-number").innerHTML = "Happy Valentine's Day! <br> We know it's a sad day :(";
   }
 }, 1000);
 
