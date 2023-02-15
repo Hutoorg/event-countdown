@@ -1,5 +1,5 @@
 # Event Countdown
-**Current event**: Valentine's Day countdown
+**Current event**: South and Southeast Asian solar New Year countdown
 
 ---
 
