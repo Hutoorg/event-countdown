@@ -1,5 +1,5 @@
 // * Set the date we're counting down to
-var countDownDate = new Date("Oct 31, 2023 18:04:00").getTime();
+var countDownDate = new Date("Oct 31, 2023 00:00:00").getTime();
 
 // Update the count down every 1 second
 var loop = setInterval(countDown, 1000);
@@ -37,6 +37,7 @@ function countDown() {
   if (minutes == 0) {
     document.getElementById("countdown-number").innerHTML = seconds + "s ";
   }
+  // ? Should we change it to `${hours}` instead?
 
   // If the count down is finished, write some text
   if (distance < 0) {
