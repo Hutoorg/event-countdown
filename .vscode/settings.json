@@ -6,7 +6,8 @@
         "lsget",
         "lsset",
         "thename",
-        "titlename"
+        "titlename",
+        "yayname"
     ],
     "githubPullRequests.ignoredPullRequestBranches": [
         "main"
