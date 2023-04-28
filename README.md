@@ -1,5 +1,6 @@
 # Event Countdown
-**Current event**: South and Southeast Asian solar New Year countdown
+
+**Current event**: Halloween
 
 ---
 
