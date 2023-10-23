@@ -1,14 +1,14 @@
 // * Set the date we're counting down to
-var countDownDate = new Date("Oct 23, 2023 10:15:00").getTime();
+var countDownDate = new Date("Oct 23, 2023 10:25:00").getTime();
 
-// Update the count down every 1 second
+// Update the countdown every 1 second
 var loop = setInterval(countDown, 1000);
 
 function countDown() {
   // Get today's date and time
   var now = new Date().getTime();
 
-  // Find the distance between now and the count down date
+  // Find the distance between now and the countdown date
   var distance = countDownDate - now;
 
   // Time calculations for days, hours, minutes, and seconds
@@ -39,7 +39,7 @@ function countDown() {
   }
   // ? Should we change it to `${hours}` instead?
 
-  // If the count down is finished, write some text
+  // If the countdown is finished, write some text
   if (distance < 0) {
     document.getElementById("countdown-number").innerHTML =
       "Happy Halloween Day!";
