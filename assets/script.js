@@ -1,5 +1,5 @@
 // * Set the date we're counting down to
-var countDownDate = new Date("Oct 31, 2023 00:00:00").getTime();
+var countDownDate = new Date("Dec 25, 2023 00:00:00").getTime();
 
 // Update the count down every 1 second
 var loop = setInterval(countDown, 1000);
@@ -42,9 +42,9 @@ function countDown() {
   // If the count down is finished, write some text
   if (distance < 0) {
     document.getElementById("countdown-number").innerHTML =
-      "Happy Halloween Day!";
-    const audio = new Audio("assets/Halloween.mp3");
-    audio.play();
+      "Happy Christmas Day!";
+    // const audio = new Audio("assets/Halloween.mp3");
+    // audio.play();
     clearInterval(loop);
   }
 }
