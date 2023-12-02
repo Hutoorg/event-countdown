@@ -42,9 +42,9 @@ function countDown() {
   // If the countdown is finished, write some text
   if (distance < 0) {
     document.getElementById("countdown-number").innerHTML =
-      "Happy Halloween Day!";
-    const audio = new Audio("assets/Halloween.mp3");
-    audio.play();
+      "Happy Christmas Day!";
+    // const audio = new Audio("assets/Halloween.mp3");
+    // audio.play();
     clearInterval(loop);
   }
 }
