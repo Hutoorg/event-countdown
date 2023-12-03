@@ -1,9 +1,9 @@
 > [!IMPORTANT]
-> This repository will be archived December 31, 2023. See [#16](https://github.com/Hutoorg/event-countdown/discussions/16) for more details.
+> This repository will be archived on December 31, 2023. See [#16](https://github.com/Hutoorg/event-countdown/discussions/16) for more details.
 ---
 # Event Countdown
 
-**Current event**: Halloween
+**Current event**: Christmas
 
 ---
 
